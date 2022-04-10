@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121E3858750EE9C29EAABFB7 /* Pods_nmBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A9B05FA20C9DFDF94E41B0 /* Pods_nmBlock.framework */; };
+		F570494327F1BDC1008EE97C /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570494227F1BDC1008EE97C /* GlobalVar.swift */; };
 		F588A37F27EF6B050036F617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A37E27EF6B050036F617 /* AppDelegate.swift */; };
 		F588A38127EF6B050036F617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A38027EF6B050036F617 /* SceneDelegate.swift */; };
-		F588A38327EF6B050036F617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A38227EF6B050036F617 /* ViewController.swift */; };
+		F588A38327EF6B050036F617 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A38227EF6B050036F617 /* MainViewController.swift */; };
 		F588A38627EF6B050036F617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F588A38427EF6B050036F617 /* Main.storyboard */; };
 		F588A38827EF6B0B0036F617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F588A38727EF6B0B0036F617 /* Assets.xcassets */; };
 		F588A38B27EF6B0B0036F617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F588A38927EF6B0B0036F617 /* LaunchScreen.storyboard */; };
+		F588A39427EF75F30036F617 /* AddTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A39327EF75F30036F617 /* AddTapGestureRecognizer.swift */; };
+		F588A39727F018E90036F617 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A39627F018E90036F617 /* BlockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		696E7DE6127E97EA334A0E85 /* Pods-nmBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nmBlock.debug.xcconfig"; path = "Target Support Files/Pods-nmBlock/Pods-nmBlock.debug.xcconfig"; sourceTree = "<group>"; };
+		92A9B05FA20C9DFDF94E41B0 /* Pods_nmBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nmBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20E896123DBE0022BDA1B07 /* Pods-nmBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nmBlock.release.xcconfig"; path = "Target Support Files/Pods-nmBlock/Pods-nmBlock.release.xcconfig"; sourceTree = "<group>"; };
+		F570494227F1BDC1008EE97C /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
 		F588A37B27EF6B050036F617 /* nmBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nmBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F588A37E27EF6B050036F617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F588A38027EF6B050036F617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F588A38227EF6B050036F617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F588A38227EF6B050036F617 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F588A38527EF6B050036F617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F588A38727EF6B0B0036F617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F588A38A27EF6B0B0036F617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F588A38C27EF6B0B0036F617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F588A39327EF75F30036F617 /* AddTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		F588A39627F018E90036F617 /* BlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121E3858750EE9C29EAABFB7 /* Pods_nmBlock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0682AE0EAA358EEFCA67EBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A9B05FA20C9DFDF94E41B0 /* Pods_nmBlock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09F88B8238B185C57352273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				696E7DE6127E97EA334A0E85 /* Pods-nmBlock.debug.xcconfig */,
+				B20E896123DBE0022BDA1B07 /* Pods-nmBlock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F588A37227EF6B050036F617 = {
 			isa = PBXGroup;
 			children = (
 				F588A37D27EF6B050036F617 /* nmBlock */,
 				F588A37C27EF6B050036F617 /* Products */,
+				E09F88B8238B185C57352273 /* Pods */,
+				0682AE0EAA358EEFCA67EBF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,34 @@
 		F588A37D27EF6B050036F617 /* nmBlock */ = {
 			isa = PBXGroup;
 			children = (
+				F588A39527F017800036F617 /* VC */,
+				F588A39227EF75E50036F617 /* Extension */,
 				F588A37E27EF6B050036F617 /* AppDelegate.swift */,
 				F588A38027EF6B050036F617 /* SceneDelegate.swift */,
-				F588A38227EF6B050036F617 /* ViewController.swift */,
 				F588A38427EF6B050036F617 /* Main.storyboard */,
 				F588A38727EF6B0B0036F617 /* Assets.xcassets */,
 				F588A38927EF6B0B0036F617 /* LaunchScreen.storyboard */,
 				F588A38C27EF6B0B0036F617 /* Info.plist */,
 			);
 			path = nmBlock;
+			sourceTree = "<group>";
+		};
+		F588A39227EF75E50036F617 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F588A39327EF75F30036F617 /* AddTapGestureRecognizer.swift */,
+				F570494227F1BDC1008EE97C /* GlobalVar.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F588A39527F017800036F617 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F588A38227EF6B050036F617 /* MainViewController.swift */,
+				F588A39627F018E90036F617 /* BlockViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F588A38F27EF6B0B0036F617 /* Build configuration list for PBXNativeTarget "nmBlock" */;
 			buildPhases = (
+				72DE7058B7D495B3CD605B82 /* [CP] Check Pods Manifest.lock */,
 				F588A37727EF6B050036F617 /* Sources */,
 				F588A37827EF6B050036F617 /* Frameworks */,
 				F588A37927EF6B050036F617 /* Resources */,
+				140C3C62DC224FB243E04806 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +184,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140C3C62DC224FB243E04806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nmBlock/Pods-nmBlock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nmBlock/Pods-nmBlock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nmBlock/Pods-nmBlock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DE7058B7D495B3CD605B82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nmBlock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F588A37727EF6B050036F617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F588A38327EF6B050036F617 /* ViewController.swift in Sources */,
+				F588A38327EF6B050036F617 /* MainViewController.swift in Sources */,
+				F588A39727F018E90036F617 /* BlockViewController.swift in Sources */,
+				F588A39427EF75F30036F617 /* AddTapGestureRecognizer.swift in Sources */,
 				F588A37F27EF6B050036F617 /* AppDelegate.swift in Sources */,
+				F570494327F1BDC1008EE97C /* GlobalVar.swift in Sources */,
 				F588A38127EF6B050036F617 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +380,7 @@
 		};
 		F588A39027EF6B0B0036F617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E7DE6127E97EA334A0E85 /* Pods-nmBlock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +409,7 @@
 		};
 		F588A39127EF6B0B0036F617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20E896123DBE0022BDA1B07 /* Pods-nmBlock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
